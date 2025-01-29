@@ -359,7 +359,7 @@ nav .desktop-nav li a:hover {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
     .nav-container .desktop-nav {
         flex-direction: column;
         position: fixed;
