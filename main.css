@@ -4,6 +4,13 @@
   font-weight: bold;
 }
 
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    overflow-y: scroll;
+}
+
 /* Desktop Nav */
 
 .nav-container {
