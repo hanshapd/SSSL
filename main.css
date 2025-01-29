@@ -1,1 +1,15 @@
+@media screen and (max-width: 360px) {
+  /* Styles for small screens */
+}
 
+@media screen and (max-width: 480px) {
+  /* Styles for small screens */
+}
+
+@media screen and (min-width: 768px) {
+  /* Styles for small screens */
+}
+
+@media screen and (min-width: 1366px) {
+  /* Styles for small screens */
+}
