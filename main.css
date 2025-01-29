@@ -1,6 +1,6 @@
 @font-face {
   font-family: myFirstFontbold;
-  src: url(sansation_bold.woff);
+  src: url("sansation_bold.woff");
   font-weight: bold;
 }
 
