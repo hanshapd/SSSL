@@ -388,12 +388,82 @@ nav .desktop-nav li a:hover {
         display: none;
     }
 
-    .nav-container .desktop-nav li a {
+    .nav-container .desktop-nav li a:nth-of-type(1) {
         padding: 16px 0;
         display: inline-block;
         width: 100%;
         font-size: 30px;
-        transform: translateX(-20px);
+        transform: translateY(-20px);
+        opacity: 0;
+        transition: all 700ms ease;
+    }
+
+    .nav-container .desktop-nav li a:nth-of-type(2) {
+        padding: 16px 0;
+        display: inline-block;
+        width: 100%;
+        font-size: 30px;
+        transform: translateY(-20px);
+        opacity: 0;
+        transition: all 700ms ease;
+    }
+
+    .nav-container .desktop-nav li a:nth-of-type(3) {
+        padding: 16px 0;
+        display: inline-block;
+        width: 100%;
+        font-size: 30px;
+        transform: translateY(-20px);
+        opacity: 0;
+        transition: all 700ms ease;
+    }
+
+    .nav-container .desktop-nav li a:nth-of-type(4) {
+        padding: 16px 0;
+        display: inline-block;
+        width: 100%;
+        font-size: 30px;
+        transform: translateY(-20px);
+        opacity: 0;
+        transition: all 700ms ease;
+    }
+
+    .nav-container .desktop-nav li a:nth-of-type(5) {
+        padding: 16px 0;
+        display: inline-block;
+        width: 100%;
+        font-size: 30px;
+        transform: translateY(-20px);
+        opacity: 0;
+        transition: all 700ms ease;
+    }
+
+    .nav-container .desktop-nav li a:nth-of-type(6) {
+        padding: 16px 0;
+        display: inline-block;
+        width: 100%;
+        font-size: 30px;
+        transform: translateY(-20px);
+        opacity: 0;
+        transition: all 700ms ease;
+    }
+
+    .nav-container .desktop-nav li a:nth-of-type(1) {
+        padding: 16px 0;
+        display: inline-block;
+        width: 100%;
+        font-size: 30px;
+        transform: translateY(-20px);
+        opacity: 0;
+        transition: all 700ms ease;
+    }
+
+    .nav-container .desktop-nav li a:nth-of-type(7) {
+        padding: 16px 0;
+        display: inline-block;
+        width: 100%;
+        font-size: 30px;
+        transform: translateY(-20px);
         opacity: 0;
         transition: all 700ms ease;
     }
