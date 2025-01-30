@@ -412,6 +412,18 @@ nav .desktop-nav li a:hover {
         opacity: 1;
     }
 
+    .nav-container .desktop-nav li a:nth-of-type(2) {
+        transform: translateX(100px);
+        opacity: 0;
+        transition: all 700ms ease;
+        transition-delay: 100ms;
+    }
+
+    .nav-container.active .desktop-nav li a:nth-of-type(2) {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
     /* Mobile Nav */
 
     nav .mobile-nav {
