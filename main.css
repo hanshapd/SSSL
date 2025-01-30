@@ -430,6 +430,7 @@ nav .desktop-nav li a:hover {
         width: 100%;
         justify-content: space-between;
         list-style: none;
+        align-items: center;
     }
 
     nav .menu-icon-container {
