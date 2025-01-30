@@ -51,12 +51,10 @@ nav .desktop-nav li a:hover {
 }
 
 .link-logo {
-    background: url('images/apple-logo.svg');
+    content: "SENSITIVE S/S LAB";
     display: block;
-    background-position: center;
-    height: 44px;
-    width: 15px;
-    background-repeat: no-repeat;
+    font-size: 30px;
+    color: #fff;
 }
 
 .link-search {
