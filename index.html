@@ -112,7 +112,24 @@
     </div>
     <!-- Hero Section -->
 
-    
+
+
+<script>
+    const swiper = new Swiper('.swiper', {
+  speed: 400,
+  slidePerView: 1,
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>        
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>    
 <script src="apps/navigationmenu.js"></script>
 <script src="apps/hero.js"></script>
