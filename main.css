@@ -57,7 +57,7 @@ nav .desktop-nav li a {
     font-family: 'Monument Grotesk Mono Regular';
     color: #fff;
     text-decoration: none;
-    text-trasnform: uppercase;
+    text-transform: uppercase;
     font-size: 15px;
     opacity: 0.8;
     transition: opacity 400ms;
