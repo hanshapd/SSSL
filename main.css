@@ -369,6 +369,7 @@ nav .desktop-nav li a:hover {
     .nav-container nav {
         width: 100%;
         padding: 0 15px;
+    }
     
     .nav-container .desktop-nav {
         flex-direction: column;
