@@ -417,7 +417,7 @@ nav .desktop-nav li a:hover {
     }
 
     nav .menu-icon-container {
-        width: 20px;
+        width: 15px;
         height: 44px;
         display: flex;
         align-items: center;
@@ -432,7 +432,8 @@ nav .desktop-nav li a:hover {
     nav .menu-icon .line-1,
     nav .menu-icon .line-2 {
         position: absolute;
-        height: 1px;
+        height: 1.2px;
+        border-radius: 99px;
         width: 100%;
         background: #fff;
         transition-property: transform, top;
