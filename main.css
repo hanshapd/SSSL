@@ -670,7 +670,5 @@ a {
 }
 
 .swiper-slide {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background: #777;
 }
