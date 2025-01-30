@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'Monument Grotesk Medium';
-  src: url('fonts/monument-grotesk-medium.ttf');
+  font-family: 'Monument Grotesk Mono Light';
+  src: url('fonts/MonumentGroteskMono-Light.woff2');
 }
 
 @font-face {
-  font-family: 'Monument Grotesk Regular';
-  src: url('fonts/monument-grotesk-regular.ttf');
+  font-family: 'Monument Grotesk Mono Medium';
+  src: url('fonts/MonumentGroteskMono-Medium.woff2');
 }
 
 @font-face {
-  font-family: 'Monument Grotesk Semi Mono';
-  src: url('fonts/monument-grotesk-semi-mono.ttf');
+  font-family: 'Monument Grotesk Mono Regular';
+  src: url('fonts/MonumentGroteskMono-Regular.woff2');
 }
 
 *,
@@ -54,9 +54,10 @@ nav .desktop-nav {
 }
 
 nav .desktop-nav li a {
+    font-family: 'Monument Grotesk Mono Medium';
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 30px;
     opacity: 0.8;
     transition: opacity 400ms;
 }
@@ -66,7 +67,7 @@ nav .desktop-nav li a:hover {
 }
 
 .link-logo {
-    font-family: 'Monument Grotesk Medium';
+    font-family: 'Monument Grotesk Mono Medium';
     font-size: 30px;
     color: #fff;
 }
