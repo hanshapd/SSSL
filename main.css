@@ -497,6 +497,14 @@ nav .desktop-nav li a:hover {
         display: none;
     }
 
+    .mobile-nav .link-logo {
+        font-family: 'Monument Grotesk Mono Regular';
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
 
 
     /* Search Box */
