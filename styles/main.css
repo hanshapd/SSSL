@@ -672,3 +672,12 @@ a {
   background-position: center center;
   background-size: cover;
 }
+
+.swiper-pagination {
+  z-index: 2;
+  height: 1.5px;
+  width: 20%;
+  background-color: #fff;
+}
+
+
