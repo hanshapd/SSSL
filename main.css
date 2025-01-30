@@ -404,7 +404,7 @@ nav .desktop-nav li a:hover {
     .nav-container.active .desktop-nav li a {
         transform: translateY(0);
         opacity: 1;
-        transition-delay: 300ms;
+        transition-delay: 400ms;
     }
 
     /* Mobile Nav */
