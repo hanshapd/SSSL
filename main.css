@@ -407,6 +407,11 @@ nav .desktop-nav li a:hover {
         transition: all 700ms ease;
     }
 
+    .nav-container.active .desktop-nav li:nth-of-type(1) {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
     /* Mobile Nav */
 
     nav .mobile-nav {
@@ -418,7 +423,7 @@ nav .desktop-nav li a:hover {
 
     nav .menu-icon-container {
         width: 15px;
-        height: 44px;
+        height: 45px;
         display: flex;
         align-items: center;
         cursor: pointer;
