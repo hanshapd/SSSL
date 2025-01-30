@@ -473,6 +473,10 @@ nav .desktop-nav li a:hover {
         transition: all 1000ms ease;
     }
 
+    .mobile-nav .link-bag {
+        display: none;
+    }
+
 
 
     /* Search Box */
