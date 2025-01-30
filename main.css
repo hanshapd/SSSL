@@ -1,3 +1,18 @@
+@font-face {
+  font-family: Monument Grotesk Medium;
+  src: url(monument-grotesk-medium.ttf);
+}
+
+@font-face {
+  font-family: Monument Grotesk Regular;
+  src: url(monument-grotesk-regular.ttf);
+}
+
+@font-face {
+  font-family: Monument Grotesk Semi Mono;
+  src: url(monument-grotesk-semi-mono.ttf);
+}
+
 *,
 *::after,
 *::before {
@@ -53,6 +68,7 @@ nav .desktop-nav li a:hover {
 .link-logo {
     content: 'SENSITIVE S/S LAB';
     display: block;
+    font-family: Monument Grotesk Medium;
     font-size: 30px;
     color: #fff;
 }
