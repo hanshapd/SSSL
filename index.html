@@ -8,10 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
-
+<!-- Navigation Menu Section -->
     <div class="nav-container">
         <nav>
             <ul class="mobile-nav">
@@ -71,69 +70,16 @@
             </ul>
         </nav>
 
-        <!-- End of navigation menu items -->
+        <!-- End Of Navigation Menu Section -->
         
 
     </div>
 
     
     <!-- Hero Section -->
-    <!-- Slider main container -->
-<div class="swiper-container">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide con2">Slide 2</div>
-        <div class="swiper-slide con3">Slide 3</div>
-        ...
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
+    <!-- End Of Hero Section -->
 
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-</div>
-    <!-- Hero Section -->
-
-
-
-<script>
-    var listArray = ["slide1","slide2","slide3"];
-var mySwiper = new Swiper('.swiper-container', {
-  // Optional parameters
-        loop: true,
-        autoplayDisableOnInteraction: false,
-        slidesPerView: 1,        
-        autoHeight: true,
-        autoplay: {
-            delay: 3000,//animation과 시간 맞춰줘야함
-        }, 
-        effect: 'fade',
-        fadeEffect: {
-            crossFade: true
-        },
-    pagination: {
-            el: '.swiper-pagination',
-            clickable: 'true',
-            type: 'bullets',
-            renderBullet: function (index, className) {
-                return '<span class="' + className + '">' + '<em>'+ listArray[index]+'</em>' + '<i></i>' + '<b></b>'  + '</span>';
-              },
-        
-        },
-   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  
-})
-</script>        
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>    
+       
 <script src="apps/navigationmenu.js"></script>
 <script src="apps/hero.js"></script>
 </body>
