@@ -652,12 +652,20 @@ a {
 
 
 /* Swiper Hero Section */
-.swiper-container {
+.hero {
+  width: 100%;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.swiper-container .swiper-slide {
-  display: flex;
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
