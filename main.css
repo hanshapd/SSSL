@@ -379,7 +379,7 @@ nav .desktop-nav li a:hover {
     }
 
     .nav-container .desktop-nav li:first-child {
-        margin-top: 120px;
+        margin-top: 60px;
     }
 
     .nav-container .desktop-nav .link-logo,
@@ -391,17 +391,20 @@ nav .desktop-nav li a:hover {
     .nav-container .desktop-nav li a {
         padding: 16px 0;
         display: inline-block;
-        border-bottom: 1px solid #616161;
         width: 100%;
-        font-size: 17px;
-        transform: translateY(-80px);
-        opacity: 0;
-        transition: all 700ms ease;
+        font-size: 30px;
+        
     }
 
     .nav-container.active .desktop-nav li a {
-        transform: translateY(0);
+        transform: translateX(0);
         opacity: 1;
+    }
+
+    .nav-container .desktop-nav li:nth-of-type(1) {
+        transform: translateX(100px);
+        opacity: 0;
+        transition: all 700ms ease;
     }
 
     /* Mobile Nav */
