@@ -672,3 +672,19 @@ a {
 .swiper-slide {
   background: #777;
 }
+
+
+
+
+/* Grid Section */
+@media (max-width: 768px) {
+  .product-container {
+    display: grid;
+    grid-column: 2;
+    grid-row: 3;
+    gap: 0;
+  }
+  .product-wrapper {
+    border: 1px solid #e8e8e8;
+  }
+}
