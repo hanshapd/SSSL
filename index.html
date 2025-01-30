@@ -91,12 +91,12 @@
             <p class="swiper-description">In the latest campaign, taken from Community as a Form of Research, Jalen Green is captured in Membrana 3L TC, a lightweight three-layer fabric whose breathable and water-resistant membrane brings performance-centric versatility to the outerwear selection.</p>
             <button class="swiper-button">Shop Now</button>
         </div>
-        <div class="swiper-slide" style="background-image: url('images/hero-2.jpg');">
+        <div class="swiper-slide" con2 style="background-image: url('images/hero-2.jpg');">
             <h1 class="swiper-title">002<br>Understated Engineering</h1>
             <p class="swiper-description">In the latest campaign, taken from Community as a Form of Research, Jalen Green is captured in Membrana 3L TC, a lightweight three-layer fabric whose breathable and water-resistant membrane brings performance-centric versatility to the outerwear selection.</p>
             <button class="swiper-button">Shop Now</button>
         </div>
-        <div class="swiper-slide" style="background-image: url('images/hero-3.jpg');">
+        <div class="swiper-slide" con3 style="background-image: url('images/hero-3.jpg');">
             <h1 class="swiper-title">003<br>FW '024-'025 SALE</h1>
             <p class="swiper-description">In the latest campaign, taken from Community as a Form of Research, Jalen Green is captured in Membrana 3L TC, a lightweight three-layer fabric whose breathable and water-resistant membrane brings performance-centric versatility to the outerwear selection.</p>
             <button class="swiper-button">Shop Now</button>
@@ -115,20 +115,35 @@
 
 
 <script>
-    const swiper = new Swiper('.swiper', {
-  speed: 400,
-  slidePerView: 1,
-  pagination: {
-    el: '.swiper-pagination',
-    type: 'bullets',
-    clickable: true
-  },
-
-  navigation: {
+    var listArray = ["slide1","slide2","slide3"];
+var mySwiper = new Swiper('.swiper-container', {
+  // Optional parameters
+        loop: true,
+        autoplayDisableOnInteraction: false,
+        slidesPerView: 1,        
+        autoHeight: true,
+        autoplay: {
+            delay: 3000,//animation과 시간 맞춰줘야함
+        }, 
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true
+        },
+    pagination: {
+            el: '.swiper-pagination',
+            clickable: 'true',
+            type: 'bullets',
+            renderBullet: function (index, className) {
+                return '<span class="' + className + '">' + '<em>'+ listArray[index]+'</em>' + '<i></i>' + '<b></b>'  + '</span>';
+              },
+        
+        },
+   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-});
+  
+})
 </script>        
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>    
 <script src="apps/navigationmenu.js"></script>
