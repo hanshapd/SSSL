@@ -54,11 +54,11 @@ nav .desktop-nav {
 }
 
 nav .desktop-nav li a {
-    font-family: 'Monument Grotesk Mono Medium';
+    font-family: 'Monument Grotesk Mono Regular';
     color: #fff;
     text-decoration: none;
-    font-size: 15px;
     text-trasnform: uppercase;
+    font-size: 15px;
     opacity: 0.8;
     transition: opacity 400ms;
 }
