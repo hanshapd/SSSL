@@ -658,8 +658,8 @@ a {
 
 .swiper-container .swiper-slide {
   display: flex;
-  justify-content: start;
-  align-items: bottom;
+  justify-content: center;
+  align-items: center;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
