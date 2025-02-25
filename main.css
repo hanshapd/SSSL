@@ -68,6 +68,12 @@ nav .desktop-nav li a:hover {
 }
 
 .link-logo {
+    background: url('images/apple-logo.svg');
+    display: block;
+    background-position: center;
+    height: 44px;
+    width: 15px;
+    background-repeat: no-repeat;
 }
 
 .link-search {
